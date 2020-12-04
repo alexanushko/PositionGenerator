@@ -1,0 +1,55 @@
+@keyframes becomeVisibile {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.gradientBorder{
+    padding: 3px;
+    height: 100%;
+    border-radius: 25px;
+    background: linear-gradient(to right,#9567C2,#E04E4E,#FBE676);
+}
+.animationPlus{
+    animation: becomeVisibile backwards 2s 0.4s;
+}
+.mainContainer{
+    display: flex;
+    align-items: center;
+    background: #0A0213;
+    border-radius: 25px;
+    height: 100%;
+}
+.appNameContainer{
+    /*display: flex;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    position: absolute;
+    top: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.appName{
+    height: 61px;
+    width: 231px;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60.53px;
+    color: #FFFFFF;
+    margin-top: 13px;
+    margin-left: 23px;
+}
+.contentContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
